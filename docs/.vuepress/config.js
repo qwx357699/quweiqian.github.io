@@ -4,7 +4,7 @@ module.exports = (options, context) => {
 		title: '目录',
 		description: 'Just playing around',
 		plugins: [
-			'mermaidjs',
+			 [ 'vuepress-plugin-mermaidjs', { gantt: { barHeight: 40 }}],
 			['@vuepress/active-header-links', {
 				sidebarLinkSelector: '.sidebar-link',
 				headerAnchorSelector: '.header-anchor'

@@ -7,14 +7,14 @@
     "@vuepress/plugin-active-header-links": "^1.9.9",
     "@vuepress/plugin-back-to-top": "^2.0.0-beta.63",
     "vuepress": "^1.9.9",
-    "vuepress-plugin-mermaidjs": "^2.0.0-beta.2"
+    "vuepress-plugin-mermaidjs": "^1.9.1"
   },
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
-	"docs:eject": "vuepress eject docs"
+    "docs:eject": "vuepress eject docs"
   },
   "dependencies": {
-    "mermaid": "^10.2.4"
+    "mermaid": "^8.14.0"
   }
 }
