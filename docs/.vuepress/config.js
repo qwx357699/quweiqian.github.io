@@ -3,10 +3,14 @@ module.exports = (options, context) => {
 		base: '/quweiqian/',
 		title: '目录',
 		description: 'Just playing around',
-		plugins: ['@vuepress/active-header-links', {
-			sidebarLinkSelector: '.sidebar-link',
-			headerAnchorSelector: '.header-anchor'
-		}],
+		plugins: [
+			'mermaidjs',
+			['@vuepress/active-header-links', {
+				sidebarLinkSelector: '.sidebar-link',
+				headerAnchorSelector: '.header-anchor'
+			}],
+			
+		],
 		themeConfig: {
 			displayAllHeaders: true, // 默认值：false
 			nav: [
