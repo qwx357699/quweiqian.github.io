@@ -1,0 +1,19 @@
+ul.sidebar-links.sidebar-group-items,.sidebar .sidebar-sub-headers {
+    counter-reset: listCounter;
+}
+.sidebar-group a.sidebar-link {
+    padding-left: 2rem;
+    position: relative;
+    counter-increment: listCounter;
+}
+ul.sidebar-links.sidebar-group-items a::before {
+    content: counter(listCounter);
+    position: absolute;
+    left: 0;
+    content: counter(listCounter) ".";
+    width: 2em;
+    text-align: right;	
+}
+.page {
+    word-wrap: break-word;
+}
