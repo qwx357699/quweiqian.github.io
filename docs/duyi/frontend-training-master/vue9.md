@@ -1,3 +1,5 @@
+# 四个知识点
+
 # 使用css module
 
 需要将样式文件命名为`xxx.module.ooo`
@@ -68,3 +70,34 @@ function getComponentRootDom(comp, props){
 >
 > 除非迫不得已，否则不要使用`ref`
 
+
+
+# 补充
+
+## export 与 import 的复合写法
+
+```js
+export { default as showMessage } from "./showMessage";
+
+export { default as getComponentRootDom } from "./getComponentRootDom";
+```
+
+上面代码中，`export`和`import`语句可以结合在一起，写成一行。但需要注意的是，写成一行以后，`showMessage`和`getComponentRootDom`实际上并没有被导入当前模块，只是相当于对外转发了这两个接口，导致当前模块不能直接使用`showMessage`和`getComponentRootDom`。
+
+具体见 [Module 的语法 | 目录 (gitee.io)](http://qwq9527.gitee.io/quweiqian/es6/module.html#export-与-import-的复合写法)
+
+## translate 同时存在两个
+
+```css
+transform: translate(-50%, -50%) translateY(20px);
+```
+
+这样写保证了居中还能往上移动 20px 
+
+## transitionend事件为啥执行多次
+
+因为 css 写法没有指定具体那个属性需要过度，所以能过度的属性都执行了
+
+`transition: 0.4s;`
+
+想要执行一次只需要 添加第三个参数 `{once:true}`
