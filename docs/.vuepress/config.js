@@ -248,6 +248,9 @@ module.exports = (options, context) => {
 							'frontend-training-master/vue8',
 							'frontend-training-master/vue9',
 							'frontend-training-master/vue10',
+							'frontend-training-master/vue11',
+							'frontend-training-master/vue12',
+							'frontend-training-master/vue13',
 						]
 					},
 				],
