@@ -250,7 +250,7 @@ module.exports = (options, context) => {
 							'frontend-training-master/vue10',
 							'frontend-training-master/vue11',
 							'frontend-training-master/vue12',
-							'frontend-training-master/vue13',
+							
 						]
 					},
 				],
@@ -327,7 +327,8 @@ module.exports = (options, context) => {
 		configureWebpack: {
 			resolve: {
 				alias: {
-					'@alias': '/docs/imgs'
+					'@alias': '/docs/imgs',
+					'@ppts':'/docs/ppts'
 				}
 			}
 		},

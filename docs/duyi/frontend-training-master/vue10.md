@@ -8,11 +8,11 @@
 >
 > mockjs：http://mockjs.com/
 
-# 远程获取数据的意义
+## 远程获取数据的意义
 
 <img src="http://mdrs.yuanjin.tech/img/20201204145137.png" alt="image-20201204145137500" style="zoom:40%;" />
 
-# 开发环境有跨域问题
+## 开发环境有跨域问题
 
 ```mermaid
 sequenceDiagram
@@ -25,7 +25,7 @@ Note right of 浏览器: 浏览器阻止数据移交
 end
 ```
 
-# 生产环境没有跨域问题
+## 生产环境没有跨域问题
 
 ```mermaid
 sequenceDiagram
@@ -43,7 +43,7 @@ sequenceDiagram
 数据服务器->>浏览器: [允许www.my-site.com]JSON数据
 ```
 
-# 解决开发环境的跨域问题
+## 解决开发环境的跨域问题
 
 ```mermaid
 sequenceDiagram
@@ -55,7 +55,7 @@ sequenceDiagram
 前端开发服务器->>浏览器: JSON数据
 ```
 
-# 为什么要Mock数据
+## 为什么要Mock数据
 
 ```mermaid
 sequenceDiagram
