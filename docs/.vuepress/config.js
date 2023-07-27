@@ -159,7 +159,12 @@ module.exports = (options, context) => {
 							'frontend-pre-javascript-master/14.md',
 							'frontend-pre-javascript-master/15.md',
 							'frontend-pre-javascript-master/16.md',
-							'frontend-pre-javascript-master/20.md',
+							{
+								title: 'WebAPI',   // 必要的
+								path: 'frontend-pre-javascript-master/20.md',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在
+								collapsable: true, // 可选的, 默认值是 true,
+								sidebarDepth: 3,    // 可选的, 默认值是 1
+							},
 							'frontend-pre-javascript-master/28.md',
 							'frontend-pre-javascript-master/29.md',
 							'frontend-pre-javascript-master/30.md',
@@ -250,7 +255,12 @@ module.exports = (options, context) => {
 							'frontend-training-master/vue10',
 							'frontend-training-master/vue11',
 							'frontend-training-master/vue12',
-							
+							'frontend-training-master/vue13',
+							'frontend-training-master/vue14',
+							'frontend-training-master/vue15',
+							'frontend-training-master/vue16',
+							'frontend-training-master/vue17',
+							'frontend-training-master/vue18'
 						]
 					},
 				],
