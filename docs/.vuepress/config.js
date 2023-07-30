@@ -260,7 +260,12 @@ module.exports = (options, context) => {
 							'frontend-training-master/vue15',
 							'frontend-training-master/vue16',
 							'frontend-training-master/vue17',
-							'frontend-training-master/vue18'
+							'frontend-training-master/vue18',
+							{
+							 title: '修饰符&$listeners&v-model',
+							 path: 'frontend-training-master/vue19', 
+							 },
+							'frontend-training-master/vue20',
 						]
 					},
 				],

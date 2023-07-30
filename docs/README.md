@@ -35,3 +35,4 @@
 | 绝对路径写法1： | `<a :href="$withBase('/ppts/bfc.pptx')">文档.ppt</a>` | [文档.ppt](http://localhost:8082/quweiqian/ppts/bfc.pptx) |
 | 绝对路径写法2： | `<a href="/quweiqian/ppts/bfc.pptx">文档.ppt</a>`     | [文档.ppt](http://localhost:8082/quweiqian/ppts/bfc.pptx) |
 | md文档写法:     | `[文档.ppt](../../../ppts/bfc.pptx)`                  | [文档.ppt](http://localhost:8082/quweiqian/ppts/bfc.pptx) |
+| 图片写法		  | `![image-20230628153726713](~@alias/image-20230628153726713.png)`|![image-20230628153726713](~@alias/image-20230628153726713.png)| 

@@ -380,6 +380,8 @@ Content-Type: multipart/form-data
 # AJAX
 
 >  AJAX就是浏览器赋予JS的一套API，通过这套API能够使JS具备网络通信的能力
+>
+>  [XMLHttpRequest Standard (whatwg.org)](https://xhr.spec.whatwg.org/)
 
 ## 历史
 
