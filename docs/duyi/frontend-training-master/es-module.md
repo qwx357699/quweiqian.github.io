@@ -1,6 +1,6 @@
 # ES Module
 
-# CommonJS
+## CommonJS
 
 > 标准类型：社区规范
 >
@@ -8,19 +8,19 @@
 >
 > 依赖类型：动态依赖
 
-## 如何导出
+### 如何导出
 
 ```js
 module.exports = 导出的值
 ```
 
-## 如何导入
+### 如何导入
 
 ```js
 require("模块路径") // 函数返回模块导出的值
 ```
 
-# ES Module
+## ES Module
 
 > 标准类型：官方标准
 >
@@ -28,7 +28,7 @@ require("模块路径") // 函数返回模块导出的值
 >
 > 依赖类型：静态依赖，动态依赖
 
-## 如何导出
+### 如何导出
 
 **ES Module**的导出
 
@@ -73,7 +73,7 @@ export { f, g, h as default} // 基本 + 默认
 
 **注意：导出代码必须为顶级代码，即不可放到代码块中**
 
-## 如何导入
+### 如何导入
 
 针对具名导出和默认导出，有不同的导入语法
 
@@ -105,9 +105,86 @@ import("模块路径") // 动态导入，返回一个Promise，完成时的数�
 
 **另外，静态导入的代码绑定的符号是常量，不可更改**
 
-# 练习题
+## 浏览器中如何使用
 
-## 练习1
+```text
+ 项目结构
+├─ demo
+│  ├─ js
+│     ├─ index.js   
+│     └─ math.js  
+└─ index.html
+```
+
+```html
+<!-- html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script src="./js/index.js" type="module"></script>
+  </body>
+</html>
+
+```
+
+```js
+// math.js
+
+// 导出两个函数 sum，isOdd
+
+// export function sum(a, b) {
+//   return a + b;
+// }
+
+// export const isOdd = (n) => n % 2 !== 0;
+
+export default {
+  sum(a, b) {
+    return a + b;
+  },
+  isOdd(n) {
+    return n % 2 !== 0;
+  },
+};
+
+/**
+ * {
+      default: {
+        sum: fn,
+        isOdd: fn
+      }
+ * }
+ *  */
+
+```
+
+```js
+//index.js
+
+// import math from './math.js';
+
+// const result = math.sum(1, 2);
+// console.log(result);
+
+setTimeout(async () => {
+  const m = await import('./math.js');
+  const math = m.default;
+  const result = math.isOdd(1, 2);
+  console.log(result);
+}, 1000);
+```
+
+
+
+## 练习题
+
+### 练习1
 
 书写一个ESM模块，查阅文档，导出下面的模块对象
 
@@ -121,7 +198,7 @@ import("模块路径") // 动态导入，返回一个Promise，完成时的数�
 
 再书写一个ESM模块，查阅文档，导入上面的模块，你可以写出多少中导入的方式
 
-## 练习2
+### 练习2
 
 书写一个ESM模块，查阅文档，导出下面的模块对象
 
@@ -145,7 +222,7 @@ import("模块路径") // 动态导入，返回一个Promise，完成时的数�
 4. 导入整个模块对象
 5. 不导入任何东西，仅运行一次该模块
 
-## 综合练习
+### 综合练习
 
 查阅文档，按照老师的模块划分思路完成「综合练习效果」
 

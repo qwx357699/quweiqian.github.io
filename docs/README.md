@@ -1,5 +1,4 @@
 
-
 # 课程
 
     课程所需资料都在资料文件链接里，链接自动更新，保存好即可，不需要权限！
@@ -31,8 +30,8 @@
 
 | 类型            | 写法                                                  | 写法                                                      |
 | --------------- | ----------------------------------------------------- | --------------------------------------------------------- |
-| 相对路径写法：  | `<a href="../../../ppts/bfc.pptx">文档.ppt</a>`       | [文档.ppt](http://localhost:8082/quweiqian/ppts/bfc.pptx) |
-| 绝对路径写法1： | `<a :href="$withBase('/ppts/bfc.pptx')">文档.ppt</a>` | [文档.ppt](http://localhost:8082/quweiqian/ppts/bfc.pptx) |
-| 绝对路径写法2： | `<a href="/quweiqian/ppts/bfc.pptx">文档.ppt</a>`     | [文档.ppt](http://localhost:8082/quweiqian/ppts/bfc.pptx) |
-| md文档写法:     | `[文档.ppt](../../../ppts/bfc.pptx)`                  | [文档.ppt](http://localhost:8082/quweiqian/ppts/bfc.pptx) |
+| 相对路径写法：  | `<a href="../../../ppts/bfc.pptx">文档.ppt</a>`       | <a href="../../../ppts/bfc.pptx">文档.ppt</a>|
+| 绝对路径写法1： | `<a :href="$withBase('/ppts/bfc.pptx')">文档.ppt</a>` | <a :href="$withBase('/ppts/bfc.pptx')">文档.ppt</a> |
+| 绝对路径写法2： | `<a href="/quweiqian/ppts/bfc.pptx">文档.ppt</a>`     | <a href="/quweiqian/ppts/bfc.pptx">文档.ppt</a>|
+| md文档写法:     | `[文档.ppt](/quweiqian/ppts/bfc.pptx)`                  | [文档.ppt](/quweiqian/ppts/bfc.pptx) |
 | 图片写法		  | `![image-20230628153726713](~@alias/image-20230628153726713.png)`|![image-20230628153726713](~@alias/image-20230628153726713.png)| 

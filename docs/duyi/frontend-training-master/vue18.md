@@ -2,11 +2,11 @@
 
 ![image-20210111142558879](http://mdrs.yuanjin.tech/img/20210111142558.png)
 
-# 组件逻辑
+## 组件逻辑
 
 ![image-20210111140735985](/Users/yuanjin/Desktop/20210111140736.png)
 
-## BlogDetail
+### BlogDetail
 
 该组件没有任何难度，根据「属性 - 文章对象」显示出文章信息即可
 
@@ -22,11 +22,11 @@ import "highlight.js/styles/github.css";
 
 
 
-## BlogTOC
+### BlogTOC
 
 无难度，不解释
 
-## BlogComment
+### BlogComment
 
 下节课讲解
 

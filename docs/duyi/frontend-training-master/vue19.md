@@ -1,10 +1,12 @@
-# 事件修饰符
+# 修饰符&$listeners&v-model
+
+## 事件修饰符
 
 **针对`dom`节点的原生事件**，`vue`支持多种修饰符以简化代码
 
-详见：[事件修饰符、按键修饰符、系统修饰符](https://cn.vuejs.org/v2/guide/events.html#%E4%BA%8B%E4%BB%B6%E4%BF%AE%E9%A5%B0%E7%AC%A6)
+详见：[事件修饰符、按键修饰符、系统修饰符](https://v2.cn.vuejs.org/v2/guide/events.html#%E4%BA%8B%E4%BB%B6%E4%BF%AE%E9%A5%B0%E7%AC%A6)
 
-# $listeners
+## $listeners
 
 `$listeners`是`vue`的一个实例属性，它用于获取父组件传过来的所有事件函数
 
@@ -79,7 +81,85 @@ this.$listeners // { event1: handleEvent1, event2: handleEvent2 }
 > </script>
 > ```
 
-# v-model
+> 补充第三种知晓父组件处理结果方式：props 传入函数
+>
+> 父组件：
+>
+> ```vue
+> <template>
+>   <LoadingButton :click="handleClick" />
+> </template>
+> 
+> <script>
+> import LoadingButton from "./LoadingButton";
+> export default {
+>   components: {
+>     LoadingButton,
+>   },
+>   methods: {
+>     async handleClick(count) {
+>       console.log("父组件", count);
+>       return new Promise((resolve) => {
+>         setTimeout(() => {
+>           resolve("有一个未知错误");
+>         }, 3000);
+>       });
+>     },
+>   },
+> };
+> </script>
+> ```
+>
+> 子组件：
+>
+> ```vue
+> <template>
+>   <div>
+>     <button @click="handleClick" :disabled="isLoading">
+>       {{ isLoading ? "loading" : "submit" }}
+>     </button>
+>     <div class="err">{{ error }}</div>
+>   </div>
+> </template>
+> 
+> <script>
+> export default {
+>   props: {
+>     click: Function,
+>   },
+>   data() {
+>     return {
+>       count: 0, // 点击的次数
+>       isLoading: false,
+>       error: "",
+>     };
+>   },
+>   methods: {
+>     async handleClick() {
+>       /*
+>        * 点击次数 +1
+>        * 错误消息清空
+>        * 为了防止重复点击，需要先将 isLoading 设置为 true
+>        * 通知父组件：「我被点击了」，并传递当前的点击次数
+>        * 等待父组件处理（有可能是异步的），将父组件处理的结果设置到 error
+>        */
+>       this.count++;
+>       this.error = "";
+>       this.isLoading = true;
+>       if (this.click) {
+>         const err = await this.click(this.count);
+>         this.isLoading = false;
+>         this.error = err;
+>       }
+>     },
+>   },
+> };
+> </script>
+> ```
+>
+> 
+
+## v-model
 
 `v-model`指令实质是一个语法糖，它是`value`属性和`input`事件的*结合体*
 
@@ -89,4 +169,4 @@ this.$listeners // { event1: handleEvent1, event2: handleEvent2 }
 <input v-model="data" />
 ```
 
-详见：[表单输入绑定](https://cn.vuejs.org/v2/guide/forms.html)
+详见：[表单输入绑定](https://v2.cn.vuejs.org/v2/guide/forms.html)

@@ -92,9 +92,11 @@ export default {
 </script>
 ```
 
-# 指令配置对象
+## 指令配置对象
 
 没有配置的指令，就像没有配置的组件一样，毫无意义
+
+### 钩子函数
 
 `vue`支持在指令中配置一些**钩子函数**，在适当的时机，`vue`会调用这些钩子函数并传入适当的参数，以便开发者完成自己想做的事情。
 
@@ -115,7 +117,7 @@ export default {
 }
 ```
 
->  [查看更多的钩子函数](https://cn.vuejs.org/v2/guide/custom-directive.html#%E9%92%A9%E5%AD%90%E5%87%BD%E6%95%B0)
+>  [查看更多的钩子函数](https://v2.cn.vuejs.org/v2/guide/custom-directive.html#钩子函数)
 
 每个钩子函数在调用时，`vue`都会向其传递一些参数，其中最重要的是前两个参数
 
@@ -129,13 +131,13 @@ export default {
 }
 ```
 
-## bingding 对象
+### bingding 对象
 
 <img src="http://mdrs.yuanjin.tech/img/20210104174229.png" alt="image-20210104174229660" style="zoom:50%;" />
 
-> [查看更多bingding对象的属性](https://cn.vuejs.org/v2/guide/custom-directive.html#%E9%92%A9%E5%AD%90%E5%87%BD%E6%95%B0%E5%8F%82%E6%95%B0)
+> [查看更多bingding对象的属性](https://v2.cn.vuejs.org/v2/guide/custom-directive.html#钩子函数参数)
 
-# 配置简化
+### 配置简化
 
 比较多的时候，在配置自定义指令时，我们都会配置两个钩子函数
 
@@ -164,5 +166,5 @@ function(el, bingding){
 
 > 利用上述知识，可满足大部分自定义指令的需求
 >
-> 更多的自定义指令用法见[官网](https://cn.vuejs.org/v2/guide/custom-directive.html)
+> 更多的自定义指令用法见[官网](https://v2.cn.vuejs.org/v2/guide/custom-directive.html)
 

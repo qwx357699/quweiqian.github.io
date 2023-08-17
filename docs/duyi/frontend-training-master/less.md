@@ -2,7 +2,7 @@
 
 ![技能树.drawio](http://mdrs.yuanjin.tech/img/20210507101924.png)
 
-# 什么是Less？
+## 什么是Less？
 
 **Less**是一种更加简洁的样式代码，它非常像CSS，但又不太一样，它让编写样式变得更容易
 
@@ -22,7 +22,7 @@
 
 **转换代码，称之为编译(compile)，转换代码的工具，称之为编译器(compiler)**
 
-# 体验Less
+## 体验Less
 
 1. 新建`index.less`文件，编写下面的`less`代码
 
@@ -75,7 +75,7 @@
 >
 > 这个麻烦只是暂时的，将来很快就可以解决
 
-# Less的核心语法
+## Less的核心语法
 
 >Less官网：https://lesscss.org/
 >
@@ -91,13 +91,13 @@ Less提供了非常多的功能，帮助我们更加轻松的编写css代码
 
 另外，你需要关注Less的特殊[注释](https://less.bootcss.com/#%E6%B3%A8%E9%87%8A%EF%BC%88comments%EF%BC%89)
 
-# 练习题
+## 练习题
 
-## 练习题1
+### 练习题1
 
 编写一个less混合，实现绝对定位居中
 
-## 练习题2
+### 练习题2
 
 将过去你所做的某个demo，将其css代码改造为less
 

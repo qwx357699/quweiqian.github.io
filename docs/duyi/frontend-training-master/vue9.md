@@ -1,6 +1,8 @@
-# 四个知识点
+# 弹出消息
 
-# 使用css module
+有时候需要实现一个简单的功能，弄一大堆组件非常麻烦，就想使用一个函数调用下，如弹出消息，这里需要使用一下四个知识点
+
+## 使用css module
 
 需要将样式文件命名为`xxx.module.ooo`
 
@@ -10,7 +12,7 @@
 
 
 
-# 得到组件渲染的Dom
+## 得到组件渲染的Dom（难）
 
 ```js
   /**
@@ -27,11 +29,11 @@ function getComponentRootDom(comp, props){
 
 
 
-# 扩展vue实例
+## 扩展vue实例
 
 <img src="http://mdrs.yuanjin.tech/img/20201203172154.jpg" alt="扩展vue实例" style="zoom:33%;" />
 
-# ref
+## ref
 
 ```html
 <template>
@@ -72,9 +74,9 @@ function getComponentRootDom(comp, props){
 
 
 
-# 补充
+## 自己补充
 
-## export 与 import 的复合写法
+### export 与 import 的复合写法
 
 ```js
 export { default as showMessage } from "./showMessage";
@@ -86,7 +88,7 @@ export { default as getComponentRootDom } from "./getComponentRootDom";
 
 具体见 [Module 的语法 | 目录 (gitee.io)](http://qwq9527.gitee.io/quweiqian/es6/module.html#export-与-import-的复合写法)
 
-## translate 同时存在两个
+### translate 同时存在两个
 
 ```css
 transform: translate(-50%, -50%) translateY(20px);
@@ -94,7 +96,7 @@ transform: translate(-50%, -50%) translateY(20px);
 
 这样写保证了居中还能往上移动 20px 
 
-## transitionend事件为啥执行多次
+### transitionend事件为啥执行多次
 
 因为 css 写法没有指定具体那个属性需要过度，所以能过度的属性都执行了
 

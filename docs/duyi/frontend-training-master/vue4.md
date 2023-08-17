@@ -2,7 +2,7 @@
 
 > vue-cli: https://cli.vuejs.org/zh/
 
-# vue-cli
+## vue-cli
 
 `vue-cli`是一个脚手架工具，用于搭建`vue`工程
 
@@ -16,7 +16,7 @@
 - postcss
 - less-loader
 
-# SFC
+## SFC
 
 单文件组件，Single File Component，即一个文件就包含了一个组件所需的全部代码
 
@@ -38,7 +38,7 @@ export default {
 
 
 
-# 预编译
+## 预编译
 
 当`vue-cli`进行**打包**时，会直接把组件中的模板转换为`render`函数，这叫做模板预编译
 

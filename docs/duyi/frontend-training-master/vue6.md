@@ -1,10 +1,10 @@
 # 组件事件
 
-# pager组件
+## pager组件
 
 <img src="http://mdrs.yuanjin.tech/img/20201113130301.png" style="zoom:50%;" />
 
-## 属性
+### 属性
 
 | 属性名        | 含义       | 类型   | 必填 | 默认值 |
 | ------------- | ---------- | ------ | ---- | ------ |
@@ -13,21 +13,21 @@
 | limit         | 页容量     | Number | 否   | 10     |
 | visibleNumber | 可见页码数 | Number | 否   | 10     |
 
-## 事件
+### 事件
 
 | 事件名     | 含义     | 事件参数 | 参数类型 |
 | ---------- | -------- | -------- | -------- |
 | pageChange | 页码变化 | 新的页码 | Number   |
 
-# 知识点
+## 知识点
 
-1. **全局样式**
+### 1. **全局样式**
 
-2. **v-if 和 v-show**
+### 2. **v-if 和 v-show**
 
    ![image-20201113133827438](http://mdrs.yuanjin.tech/img/20201113133827.png)
 
-   -------
+-------
 
    ![image-20201113134051281](http://mdrs.yuanjin.tech/img/20201113134051.png)
 
@@ -42,7 +42,7 @@
 
    
 
-3. **组件事件**
+### 3. **组件事件**
 
    <img src="http://mdrs.yuanjin.tech/img/20201113134557.png" alt="image-20201113134557175" style="zoom:40%;" />
 
@@ -98,11 +98,11 @@ export default {
 
 ```
 
-2. 多个参数，比较灵活，`$event`
+2. 自定义事件，想使用`$event`，需要将之传出，默认事件上有只有一个`$event` 参数
 
    ```vue
    <templete>
-   	<a @click="handleClick($event,a,b)"></a>
+   	<a @click="handleClick()"></a>
    </templete>
    <script>
    export default {
@@ -113,12 +113,13 @@ export default {
          }  
        },
        methods:{
-           handleClick(e,a,b){
+           handleClick($event){
            // 可以将 event,a,b 都传进来    
+               this.$emit("xxClick",$event,this.a,this.b);
            }
        }
    }
    </script>
    ```
-
+   
    

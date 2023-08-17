@@ -1,6 +1,6 @@
 # 个人空间前台页面接口文档
 
-# 概述
+## 概述
 
 **服务器的所有接口均不允许跨域**
 
@@ -24,31 +24,31 @@
 
 
 
-# 接口规格
+## 接口规格
 
-## 全局设置
+### 全局设置
 
 全局设置是单例的，服务器启动时，如果没有全局设置，则会初始化一个默认的全局设置：
 
 ```yaml
 {
-	avatar: "http://www.duyiedu.com/source/img/logo.png", #个人空间的头像
-  siteTitle: "我的个人空间", #个人空间的标题
-  github: "https://github.com/DuYi-Edu", #空间主人的github地址
-  qq: "3263023350", #空间主人的qq号
-  qqQrCode:  "http://www.duyiedu.com/source/img/%E5%B0%8F%E6%B8%A1%E5%BE%AE%E4%BF%A1%E4%BA%8C%E7%BB%B4%E7%A0%81.png", #空间主人的qq二维码
-    weixin: "yh777bao", #空间主人的微信
-    weixinQrCode:      "http://www.duyiedu.com/source/img/%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.png", #空间主人的微信二维码
-  mail: "duyi@gmail.com", #空间主人的邮箱
-  icp: "黑ICP备17001719号", #空间主人的备案号
-  githubName: "DuYi-Edu", #空间主人的github名称
-  favicon: "http://mdrs.yuanjin.tech/Fs4CDlC6mwe_WXLMIiXcmSJLHO4f", #网站的favicon地址
+	avatar: "http://www.duyiedu.com/source/img/logo.png", ##个人空间的头像
+  siteTitle: "我的个人空间", ##个人空间的标题
+  github: "https://github.com/DuYi-Edu", ##空间主人的github地址
+  qq: "3263023350", ##空间主人的qq号
+  qqQrCode:  "http://www.duyiedu.com/source/img/%E5%B0%8F%E6%B8%A1%E5%BE%AE%E4%BF%A1%E4%BA%8C%E7%BB%B4%E7%A0%81.png", ##空间主人的qq二维码
+    weixin: "yh777bao", ##空间主人的微信
+    weixinQrCode:      "http://www.duyiedu.com/source/img/%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.png", ##空间主人的微信二维码
+  mail: "duyi@gmail.com", ##空间主人的邮箱
+  icp: "黑ICP备17001719号", ##空间主人的备案号
+  githubName: "DuYi-Edu", ##空间主人的github名称
+  favicon: "http://mdrs.yuanjin.tech/Fs4CDlC6mwe_WXLMIiXcmSJLHO4f", ##网站的favicon地址
 }
 ```
 
 
 
-### 获取全局设置
+##### 获取全局设置
 
 **请求规格：**
 
@@ -81,9 +81,9 @@ method: GET
 
 
 
-## 博客文章
+### 博客文章
 
-### 获取所有博客分类
+##### 获取所有博客分类
 
 **请求规格：**
 
@@ -103,17 +103,17 @@ method: GET
 	data: [{
     id: <id>,
     name: "分类1",
-    articleCount: 10, #该分类下文章的数量
+    articleCount: 10, ##该分类下文章的数量
     order: 1
 	}, {
     id: <id>,
     name: "分类2",
-    articleCount: 10, #该分类下文章的数量
+    articleCount: 10, ##该分类下文章的数量
     order: 2
 	}, {
     id: <id>,
     name: "分类3",
-    articleCount: 10, #该分类下文章的数量
+    articleCount: 10, ##该分类下文章的数量
     order: 3
 	}
 }]
@@ -123,7 +123,7 @@ method: GET
 
 - 分类列表应该按照order的顺序排序好
 
-### 分页获取博客
+##### 分页获取博客
 
 **请求规格：**
 
@@ -152,13 +152,13 @@ method: GET
 	code: 0,
 	msg: "",
 	data: { 
-		total: 786, #总数
-		rows: [ # 当前页列表数据
+		total: 786, ##总数
+		rows: [ ## 当前页列表数据
 			{
 				id:<id>,
 				title: "标题",
 				description: "描述",
-				category: { #所属分类
+				category: { ##所属分类
 					id: 3,
 					name: "分类3"
 				},
@@ -175,7 +175,7 @@ method: GET
 
 - 结果按照创建时间的倒序排序
 
-### 获取单个博客
+##### 获取单个博客
 
 **请求规格：**
 
@@ -201,11 +201,11 @@ method: GET
     	id: 1,
     	name:"分类3"
     },
-    scanNumber: 0, #浏览次数
-    commentNumber: 0, #评论数
+    scanNumber: 0, ##浏览次数
+    commentNumber: 0, ##评论数
     description: "博客描述，显示到列表页",
-    createDate: 1604976798936, #时间戳，创建日期
-    toc:  [ # 博客章节目录
+    createDate: 1604976798936, ##时间戳，创建日期
+    toc:  [ ## 博客章节目录
       { name: "章节1", anchor: "title-1" },
       {
         name: "章节2",
@@ -220,14 +220,14 @@ method: GET
         anchor: "title-3",
       },
     ],
-    htmlContent: "....", #博客的html内容
+    htmlContent: "....", ##博客的html内容
     thumb: "缩略图地址"
 	}
 ```
 
 
 
-### 提交评论
+##### 提交评论
 
 **请求规格：**
 
@@ -237,7 +237,7 @@ method: POST
 body: {
 	nickname: "昵称",
 	content: "评论内容，纯文本",
-	blogId: <id>	#评论的博客id
+	blogId: <id>	##评论的博客id
 }
 ```
 
@@ -254,7 +254,7 @@ body: {
     nickname: "昵称",
     content: "评论内容，纯文本",
     blog: {
-    	id: <id>, # 博客id
+    	id: <id>, ## 博客id
     	title: "博客标题"
     }
     createDate: 1604976798936,
@@ -282,7 +282,7 @@ body: {
   }
   ```
 
-### 分页获取评论
+##### 分页获取评论
 
 **请求规格：**
 
@@ -311,14 +311,14 @@ method: GET
 	code: 0,
 	msg: "",
 	data: { 
-		total: 786, #总数
-		rows: [ # 当前页列表数据
+		total: 786, ##总数
+		rows: [ ## 当前页列表数据
 			{
         id: <id>,
         nickname: "昵称",
         content: "评论内容，纯文本",
         blog: {
-          id: <id>, # 博客id
+          id: <id>, ## 博客id
           title: "博客标题"
         }
         createDate: 1604976798936,
@@ -332,9 +332,9 @@ method: GET
 
 - 结果按照创建时间的倒序排序
 
-## 首页标语
+### 首页标语
 
-### 获取标语
+##### 获取标语
 
 **请求规格：**
 
@@ -372,9 +372,9 @@ method: GET
 
 ```
 
-## 关于页面
+### 关于页面
 
-### 获取「关于我」页面
+##### 获取「关于我」页面
 
 **请求规格：**
 
@@ -389,15 +389,15 @@ method: GET
 {
 	code: 0,
 	msg: "",
-	data: "http://skill.phodal.com/#_rs2tu_1_Name"
+	data: "http://skill.phodal.com/##_rs2tu_1_Name"
 }
 ```
 
 
 
-## 留言板
+### 留言板
 
-### 提交留言
+##### 提交留言
 
 **请求规格：**
 
@@ -447,7 +447,7 @@ body: {
   }
   ```
 
-### 分页获取留言
+##### 分页获取留言
 
 **请求规格：**
 
@@ -475,8 +475,8 @@ method: GET
 	code: 0,
 	msg: "",
 	data: { 
-		total: 786, #总数
-		rows: [ # 当前页列表数据
+		total: 786, ##总数
+		rows: [ ## 当前页列表数据
 			{
         id: <id>,
         nickname: "昵称",
@@ -492,9 +492,9 @@ method: GET
 
 - 结果按照创建时间的倒序排序
 
-## 项目&demo
+### 项目&demo
 
-### 获取所有项目
+##### 获取所有项目
 
 **请求规格：**
 

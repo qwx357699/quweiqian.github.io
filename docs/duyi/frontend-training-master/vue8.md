@@ -8,7 +8,7 @@
 2. **把选择的组件放到哪个位置？**
 3. **如何无刷新的切换组件？**
 
-# 路由插件
+## 路由插件
 
 ```shell
 # 为了保证和课程一致，请安装3.4.9版本
@@ -32,7 +32,7 @@ new Vue({
 })
 ```
 
-# 基本使用
+## 基本使用
 
 ```js
 // 路由配置
@@ -61,7 +61,7 @@ const router = new VueRouter({
 </div>
 ```
 
-# 路由模式
+## 路由模式
 
 路由模式决定了：
 
@@ -93,7 +93,7 @@ const router = new VueRouter({
    内存： /blog	  --> /blog
    ```
 
-# 导航
+## 导航
 
 `vue-router`提供了全局的组件`RouterLink`，它的渲染结果是一个`a`元素
 
@@ -110,7 +110,7 @@ const router = new VueRouter({
 
 <img src="http://mdrs.yuanjin.tech/img/20201203150918.png" alt="image-20201203150918219" style="zoom:50%;" />
 
-## 激活状态
+### 激活状态
 
 默认情况下，`vue-router`会用 **当前路径** 匹配 **导航路径** ：
 
@@ -148,7 +148,7 @@ const router = new VueRouter({
 
 另外，可以通过`active-class`属性更改匹配的类名，通过`exact-active-class`更改精确匹配的类名
 
-# 命名路由
+### 命名路由
 
 使用命名路由可以解除系统与路径之间的耦合
 

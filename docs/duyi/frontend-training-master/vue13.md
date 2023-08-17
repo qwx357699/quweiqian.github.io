@@ -42,5 +42,5 @@ const comp1 = {
 }
 ```
 
-混入并不复杂，更多细节参见[官网](https://cn.vuejs.org/v2/guide/mixins.html)
+混入并不复杂，更多细节参见[官网](https://v2.cn.vuejs.org/v2/guide/mixins.html)
 
