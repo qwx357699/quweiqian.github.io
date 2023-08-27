@@ -35,3 +35,23 @@
 | 绝对路径写法2： | `<a href="/quweiqian/ppts/bfc.pptx">文档.ppt</a>`     | <a href="/quweiqian/ppts/bfc.pptx">文档.ppt</a>|
 | md文档写法:     | `[文档.ppt](/quweiqian/ppts/bfc.pptx)`                  | [文档.ppt](/quweiqian/ppts/bfc.pptx) |
 | 图片写法		  | `![image-20230628153726713](~@alias/image-20230628153726713.png)`|![image-20230628153726713](~@alias/image-20230628153726713.png)| 
+
+# mardown 
+
+1. <a :href="$withBase('/pdf/Markdown 语法和 MWeb 写作使用说明.pdf')">Markdown 语法和 MWeb 写作使用说明.pdf</a>
+2. <a :href="$withBase('/tools/Typora Mac破解版.zip')">Typora Mac破解版.zip</a>
+3. <a :href="$withBase('/tools/typora白嫖1.2.4_by 落虾与孤鹜齐飞.zip')">typora白嫖1.2.4_by 落虾与孤鹜齐飞.zip</a>
+
+# 书籍
+1. <a :href="$withBase('/pdf/【谢希仁】计算机网络第五版.pdf')">【谢希仁】计算机网络第五版.pdf</a>
+
+2. <a :href="$withBase('/pdf/76-HTTP权威指南.pdf')">76-HTTP权威指南.pdf</a>
+
+3. <a :href="$withBase('/pdf/TCP-IP详解卷一：协议.pdf')">TCP-IP详解卷一：协议.pdf</a>
+
+4. <a :href="$withBase('/pdf/TCP-IP详解卷二：实现.pdf')">TCP-IP详解卷二：实现.pdf</a>
+
+5. <a :href="$withBase('/pdf/TCP-IP详解卷三：TCP事务协议，HTTP，NNTP和UNIX域协议.pdf')">TCP-IP详解卷三：TCP事务协议，HTTP，NNTP和UNIX域协议.pdf</a>
+
+   
+
