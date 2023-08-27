@@ -39,8 +39,8 @@
 # mardown 
 
 1. <a :href="$withBase('/pdf/Markdown 语法和 MWeb 写作使用说明.pdf')">Markdown 语法和 MWeb 写作使用说明.pdf</a>
-2. <a :href="$withBase('/tools/Typora Mac破解版.zip')">Typora Mac破解版.zip</a>
-3. <a :href="$withBase('/tools/typora白嫖1.2.4_by 落虾与孤鹜齐飞.zip')">typora白嫖1.2.4_by 落虾与孤鹜齐飞.zip</a>
+2. <a :href="$withBase('/tools/Typora Mac破解版.zip2')">Typora Mac破解版.zip</a>
+3. <a :href="$withBase('/tools/typora白嫖1.2.4_by 落虾与孤鹜齐飞.zip.pdf')" download>typora白嫖1.2.4_by 落虾与孤鹜齐飞.zip</a>
 
 # 书籍
 1. <a :href="$withBase('/pdf/【谢希仁】计算机网络第五版.pdf')">【谢希仁】计算机网络第五版.pdf</a>
