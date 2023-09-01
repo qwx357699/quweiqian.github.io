@@ -1,26 +1,27 @@
-const baseConfig=require("./configs/config-base.js");
-const fixedLearning=require("./configs/config-fixed-learning.js");
-const es6YuanYifeng=require("./configs/config-es-ruanyifeng.js");
-const interview=require("./configs/config-interview.js");
+const baseConfig = require("./configs/config-base.js");
+const fixedLearning = require("./configs/config-fixed-learning.js");
+const es6YuanYifeng = require("./configs/config-es-ruanyifeng.js");
+const interview = require("./configs/config-interview.js");
+const particular = require("./configs/config-particular.js");
 
 
 module.exports = (options, context) => {
 	return {
 		base: '/quweiqian/',
 		title: '无间劫',
-		head:[
-			['link',{rel:'stylesheet',href:'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css'}],
-			['link',{rel:'stylesheet',href:'https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css'}],
+		head: [
+			['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css' }],
+			['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css' }],
 		],
 		description: 'Just playing around',
-		
+
 		plugins: [
-			 [ 'vuepress-plugin-mermaidjs', { gantt: { barHeight: 40 }}],
+			['vuepress-plugin-mermaidjs', { gantt: { barHeight: 40 } }],
 			['@vuepress/active-header-links', {
 				sidebarLinkSelector: '.sidebar-link',
 				headerAnchorSelector: '.header-anchor'
 			}],
-			
+
 		],
 		themeConfig: {
 			displayAllHeaders: false, // 默认值：false
@@ -38,27 +39,34 @@ module.exports = (options, context) => {
 					// ]
 				},
 				{ text: '笔面试', link: '/interview/frontend-interview-html-master/1' },
+				{
+					text: '详细版', link: '/particular/',
+					ariaLabel: 'context Menu',
+					items: [
+						{ text: 'ES6详细版', link: '/particular/frontend-es6-particular-master/1' },
+					]
+				},
 				{ text: 'es6阮', link: '/es6/intro' },
 			],
 			sidebar: {
 				...baseConfig,
 				...fixedLearning,
 				...es6YuanYifeng,
-				...interview
-				
+				...interview,
+				...particular
 			},
-			
+
 		},
 		configureWebpack: {
 			resolve: {
 				alias: {
 					'@alias': '/docs/imgs',
-					'@ppts':'/docs/ppts'
+					'@ppts': '/docs/ppts'
 				}
 			}
 		},
-		extendMarkdown(md){
-			md.set({html:true});
+		extendMarkdown(md) {
+			md.set({ html: true });
 			md.use(require("markdown-it-katex"));
 		}
 	}
