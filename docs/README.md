@@ -10,12 +10,13 @@
 </ul>
 ​	
 
-<a target="_blank" href="https://duyiedu.yuque.com/fmi7t1/nwhh7g/gtucggflr4xxpp6m?singleDoc#"> 34期学员入学须知 </a> <br>
+<a target="_blank" href="https://duyiedu.yuque.com/fmi7t1/nwhh7g/xrmwqa0xke7n31vo?singleDoc#"> 《前端34期学员入学须知》</a> <br>
 <a target="_blank" href="https://duyiedu.yuque.com/fmi7t1/nwhh7g/gtucggflr4xxpp6m?singleDoc#"> https://duyiedu.yuque.com/fmi7t1/nwhh7g/gtucggflr4xxpp6m?singleDoc# 《前端-中枢课文件资料》 </a> <br>
 <a target="_blank" href="https://duyiedu.yuque.com/fmi7t1/nwhh7g/bcqyd9mdraozmatp?singleDoc#">https://duyiedu.yuque.com/fmi7t1/nwhh7g/bcqyd9mdraozmatp?singleDoc# 《前端-语言基础文件资料》</a><br>
 <a target="_blank" href="https://duyiedu.yuque.com/fmi7t1/nwhh7g/tfd9blexuk02ggqr?singleDoc#">https://duyiedu.yuque.com/fmi7t1/nwhh7g/tfd9blexuk02ggqr?singleDoc# 《前端-强化课文件资料》 </a><br>
 <a target="_blank" href="https://duyiedu.yuque.com/fmi7t1/nwhh7g/ohf2y7sggobkm47p?singleDoc#">https://duyiedu.yuque.com/fmi7t1/nwhh7g/ohf2y7sggobkm47p?singleDoc# 《前端-笔面试甄选文件资料》</a><br>
-<br> 这些是全部的课程资料，一定保存好哈，按照步骤操作就可以了<br>
+
+https://duyiedu.yuque.com/docs/share/035f87cc-1fa8-4592-bcee-137ddd5cb991?# 《JAVA文件资料》<br> 这些是全部的课程资料，一定保存好哈，按照步骤操作就可以了<br>
 <a target="_blank" href="https://duyiedu.yuque.com/fmi7t1/nwhh7g/xu5lrh13qrhsw2wn?singleDoc#">https://duyiedu.yuque.com/fmi7t1/nwhh7g/xu5lrh13qrhsw2wn?singleDoc# 《34期学习指导》</a> <br> 学习vip课程之前，先看这个文档，选择适合自己规划的学习路线<br>
 <a target="_blank" href="https://duyiedu.yuque.com/hghs2q/ybli0a/kgbr16?singleDoc#">https://duyiedu.yuque.com/hghs2q/ybli0a/kgbr16?singleDoc# 《前端课程目录（新）》</a> <br>
 

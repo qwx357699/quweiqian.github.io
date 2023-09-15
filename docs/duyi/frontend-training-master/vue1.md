@@ -1,6 +1,12 @@
 # 前端框架由来
 
-> vue官网：https://cn.vuejs.org/
+> vue官网：https://v2.cn.vuejs.org/
+
+> 测试指令
+
+```json
+"test:BlogList": "vue serve ./src/views/Blog/components/testBlogList.vue --open"
+```
 
 
 
