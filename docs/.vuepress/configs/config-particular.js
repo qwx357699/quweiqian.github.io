@@ -1,5 +1,5 @@
 const es6Particular = require("./particular/es6.js");
-const webPackParticular = require("./particular/webpack");
+const webPackParticular = require("./particular/webpack.js");
 module.exports = {
 	"/particular/": [
 		{
