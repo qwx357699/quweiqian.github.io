@@ -8,7 +8,7 @@ const particular = require("./configs/config-particular.js");
 module.exports = (options, context) => {
 	return {
 		base: '/quweiqian/',
-		title: '无间劫',
+		title: '以学愈愚',
 		head: [
 			['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css' }],
 			['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css' }],

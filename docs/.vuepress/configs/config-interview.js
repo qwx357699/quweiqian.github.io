@@ -114,13 +114,13 @@ module.exports = {
                     collapsable: true,
                     sidebarDepth: 2,
                     children: [
-                        "/duyi/frontend-training-master/es6-03",
-                        "/duyi/frontend-training-master/es6-04",
-                        "/duyi/frontend-training-master/es6-05",
-                        "/duyi/frontend-training-master/es6-06",
-                        "/duyi/frontend-training-master/es6-07",
                         "/interview/frontend-interview-promise-master/1",
                         "/interview/frontend-interview-promise-master/2",
+                        "/interview/frontend-interview-promise-master/3",
+                        "/interview/frontend-interview-promise-master/4",
+						"/interview/frontend-interview-promise-master/5",
+                        "/interview/frontend-interview-promise-master/6",
+						"/interview/frontend-interview-promise-master/7"
                     ],
                 },
                 {
