@@ -74,7 +74,7 @@ module.exports = {
 ```html
 <body>
   <div id="app"></div>
-    <!-- 模板语法，html-webpack-plugin 识别，判断是否是生产环境-->
+    <!-- 模板语法，html-webpack-plugin 识别，判断是否是生产环境 htmlWebpackPlugin.options.NODE_ENV 或者自定义变量-->
   <% if(NODE_ENV === "production"){ %>
   <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.12/vue.min.js"></script>
   <script src="https://cdn.bootcdn.net/ajax/libs/vuex/3.5.1/vuex.min.js"></script>

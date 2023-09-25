@@ -44,7 +44,7 @@ module.exports = (options, context) => {
 					ariaLabel: 'context Menu',
 					items: [
 						{ text: 'ES6详细版', link: '/particular/frontend-es6-particular-master/1' },
-						{ text: 'webpack详细版', link: '/particular/frontend-webpack-particular-master/1' },
+						{ text: 'webpack详细版', link: '/particular/frontend-webpack-particular-master/1.1' },
 					]
 				},
 				{ text: 'es6阮', link: '/es6/intro' },
