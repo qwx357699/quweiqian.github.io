@@ -3,6 +3,7 @@ const fixedLearning = require("./configs/config-fixed-learning.js");
 const es6YuanYifeng = require("./configs/config-es-ruanyifeng.js");
 const interview = require("./configs/config-interview.js");
 const particular = require("./configs/config-particular.js");
+const fragments = require("./configs/config-fragments.js");
 
 
 module.exports = (options, context) => {
@@ -27,7 +28,16 @@ module.exports = (options, context) => {
 			displayAllHeaders: false, // 默认值：false
 			nav: [
 				{ text: 'home', link: '/' },
-				{ text: '基础', link: '/base/frontend-base-htmlcss-master/5/10' },
+				// { text: '基础', link: '/base/frontend-base-htmlcss-master/5/10' },
+				{
+					text: '基础',
+					link: '/base/frontend-base-htmlcss-master/5/10',
+					ariaLabel: 'context Menu',
+					items: [
+						{ text: 'HTML+CSS 基础', link: '/base/frontend-base-htmlcss-master/5/10' },
+						{ text: 'vue3', link: '/base/vue3/1' },
+					]
+				},
 				{
 					text: '固定学习', link: '/duyi/frontend-pre-htmlcss-master/01'
 					// ariaLabel: 'context Menu',
@@ -51,13 +61,15 @@ module.exports = (options, context) => {
 					]
 				},
 				{ text: 'es6阮', link: '/es6/intro' },
+				{ text: '散记', link: '/fragments/1' },
 			],
 			sidebar: {
 				...baseConfig,
 				...fixedLearning,
 				...es6YuanYifeng,
 				...interview,
-				...particular
+				...particular,
+				...fragments
 			},
 
 		},

@@ -93,5 +93,28 @@ module.exports = {
 				},
 			]
 		},
+		{
+			title: 'Vue3',
+			collapsable: true,
+			sidebarDepth: 2,
+			children: [
+				'vue3/1',
+				'vue3/2',
+				'vue3/3',
+				'vue3/4',
+				'vue3/5',
+				'vue3/6',
+				'vue3/7',
+				'vue3/8',
+				'vue3/9',
+				'vue3/10',
+				'vue3/11',
+				'vue3/12',
+				'vue3/13',
+				'vue3/14',
+				'vue3/15',
+				'vue3/16'
+			],
+		}
 	]
 }
