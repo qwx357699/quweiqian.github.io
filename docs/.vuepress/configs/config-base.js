@@ -1,3 +1,4 @@
+const webapp = require("./config-webapp");
 module.exports = {
 	"/base/": [
 		{
@@ -115,6 +116,7 @@ module.exports = {
 				'vue3/15',
 				'vue3/16'
 			],
-		}
+		},
+		{ ...webapp }
 	]
 }
