@@ -92,5 +92,18 @@ module.exports = {
                 "frontend-webpack-particular-master/5.13",
             ],
         },
+        {
+            title: "补充和案例", // 必要的
+            collapsable: true, // 可选的, 默认值是 true,
+            sidebarDepth: 2, // 可选的, 默认值是 1
+            children: [
+                "frontend-webpack-particular-master/6.1",
+                "frontend-webpack-particular-master/6.2",
+                "frontend-webpack-particular-master/6.3",
+                "frontend-webpack-particular-master/6.4",
+                "frontend-webpack-particular-master/6.5",
+                "frontend-webpack-particular-master/6.6",
+            ],
+        },
     ],
 };
