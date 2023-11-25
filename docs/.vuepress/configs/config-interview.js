@@ -107,6 +107,7 @@ module.exports = {
                         "/interview/frontend-interview-javascript-master/26",
                         "/interview/frontend-interview-javascript-master/27",
                         "/interview/frontend-interview-javascript-master/28",
+                        "/interview/frontend-interview-javascript-master/29",
                     ],
                 },
                 {
@@ -118,9 +119,9 @@ module.exports = {
                         "/interview/frontend-interview-promise-master/2",
                         "/interview/frontend-interview-promise-master/3",
                         "/interview/frontend-interview-promise-master/4",
-						"/interview/frontend-interview-promise-master/5",
+                        "/interview/frontend-interview-promise-master/5",
                         "/interview/frontend-interview-promise-master/6",
-						"/interview/frontend-interview-promise-master/7"
+                        "/interview/frontend-interview-promise-master/7"
                     ],
                 },
                 {
