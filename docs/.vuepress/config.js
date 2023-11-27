@@ -55,6 +55,7 @@ module.exports = (options, context) => {
 					ariaLabel: 'context Menu',
 					items: [
 						{ text: 'html5详细版', link: '/particular/html5/1' },
+						{ text: 'js详细版', link: '/particular/frontend-javascript-particular-master/1.1' },
 						{ text: 'ES6详细版', link: '/particular/frontend-es6-particular-master/1' },
 						{ text: '模块化详细版', link: '/particular/frontend-module-particular-master/1' },
 						{ text: '包管理器详细版', link: '/particular/frontend-packagemanager-particular-master/1' },
