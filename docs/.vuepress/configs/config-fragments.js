@@ -26,10 +26,22 @@ module.exports = {
         '9j/12IP数据报'
       ]
     },
+    {
+      title: 'Beta',   // 必要的
+      collapsable: true, // 可选的, 默认值是 true,
+      sidebarDepth: 2,    // 可选的, 默认值是 1
+      children: [
+        "beta/config",
+        "beta/corepack",
+        "beta/yarn",
+        "beta/架构课程"
+      ]
+    },
     "1",
     "2",
     "3",
     "4",
     "5",
+    "6",
   ]
 }
