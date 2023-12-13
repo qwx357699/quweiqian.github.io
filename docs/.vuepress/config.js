@@ -60,6 +60,7 @@ module.exports = (options, context) => {
 						{ text: '模块化详细版', link: '/particular/frontend-module-particular-master/1' },
 						{ text: '包管理器详细版', link: '/particular/frontend-packagemanager-particular-master/1' },
 						{ text: 'webpack详细版', link: '/particular/frontend-webpack-particular-master/1.1' },
+						{ text: 'TS详细版', link: '/particular/typescript/base/1' },
 					]
 				},
 				{ text: 'es6阮', link: '/es6/intro' },
