@@ -4,6 +4,7 @@ const webPackParticular = require("./particular/webpack.js");
 const html5 = require("./particular/html5.js");
 const moduleParticular = require("./particular/module.js");
 const packagemanager = require("./particular/packagemanager.js");
+const typescript = require("./particular/typescript.js");
 module.exports = {
 	"/particular/": [
 		{
@@ -17,6 +18,7 @@ module.exports = {
 				{ ...moduleParticular },
 				{ ...packagemanager },
 				{ ...webPackParticular },
+				{ ...typescript },
 			],
 		}
 	]
