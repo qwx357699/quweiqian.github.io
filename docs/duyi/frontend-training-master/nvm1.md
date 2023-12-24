@@ -21,14 +21,19 @@ nvm 全称为 node version manger，顾名思义就是管理 node 版本的一�
 如果直接用 nvm 命令下载 node 的话，因为源在国外，所以会导致下载失败，所以我们最好修改 nvm 的源
 
 打开 nvm 的下载路径，如果你是一路 next 的，那么一般就在：C:\Users\你现在用的用户名\AppData\Roaming\nvm
+如果是指定文件夹安装，就在安装的文件夹下找。
 
 打开 setting.txt 文件，在末尾写入：
 
 ```shell
-node_mirror: https://npm.taobao.org/mirrors/node/
-npm_mirror: https://npm.taobao.org/mirrors/npm/
+node_mirror: https://registry.npmmirror.com/node/
+npm_mirror: https://registry.npmmirror.com/npm/
 ```
-
+或使用命令
+```bash
+nvm node_mirror https://registry.npmmirror.com/node/
+nvm npm_mirror https://registry.npmmirror.com/npm/
+```
 
 
 **4. nvm常用命令**
