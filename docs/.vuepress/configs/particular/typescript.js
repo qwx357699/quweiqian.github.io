@@ -14,6 +14,8 @@ module.exports = {
         'typescript/base/4',
         'typescript/base/5',
         'typescript/base/6',
+        'typescript/base/7',
+        'typescript/base/8',
       ]
     },
   ]

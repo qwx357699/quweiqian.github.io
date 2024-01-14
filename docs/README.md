@@ -56,3 +56,5 @@ https://duyiedu.yuque.com/docs/share/035f87cc-1fa8-4592-bcee-137ddd5cb991?# 《J
 
    
 
+# node 版本
+运行该项目 node使用的是v12 v18会报错
