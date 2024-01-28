@@ -1,6 +1,6 @@
 #  构建工具的使用
 
-![技能树](http://mdrs.yuanjin.tech/img/20210508151156.png)
+![技能树](https://qwq9527.gitee.io/resource/imgs/20210508151156.png)
 
 > **工程化，为复杂应用而生**
 >
@@ -12,7 +12,7 @@
 
 它运行在node环境中，它所做的事情，简单来说，就是**打包**
 
-<img src="http://mdrs.yuanjin.tech/img/20210508172954.png" alt="image-20210508172953979" style="zoom:50%;" />
+<img src="https://qwq9527.gitee.io/resource/imgs/20210508172954.png" alt="image-20210508172953979" style="zoom:50%;" />
 
 具体来说，就是以某个模块作为入口，根据入口分析出所有模块的依赖关系，然后对各种模块进行合并、压缩，形成最终的打包结果
 
@@ -84,7 +84,7 @@ webpack会非常暴力的将public目录中的所有文件（除页面模板外�
 
 与此同时，当源码发生变动时，webpack会自动重新打包，同时刷新页面以访问到最新的打包结果
 
-![image-20210508194442940](http://mdrs.yuanjin.tech/img/20210508194443.png)
+![image-20210508194442940](https://qwq9527.gitee.io/resource/imgs/20210508194443.png)
 
 ##  文件缓存
 
@@ -100,11 +100,11 @@ webpack会非常暴力的将public目录中的所有文件（除页面模板外�
 
 如果不设置hash值，一旦代码更新，浏览器还会使用之前缓存的结果，无法使用最新的代码
 
-<img src="http://mdrs.yuanjin.tech/img/20210508183135.png" alt="image-20210508183135487" style="zoom:50%;" />
+<img src="https://qwq9527.gitee.io/resource/imgs/20210508183135.png" alt="image-20210508183135487" style="zoom:50%;" />
 
 有了hash值之后，即可解决此问题
 
-![image-20210508183454385](http://mdrs.yuanjin.tech/img/20210508183454.png)
+![image-20210508183454385](https://qwq9527.gitee.io/resource/imgs/20210508183454.png)
 
 webpack会在打包时自动处理hash值，并不会对我们写代码造成任何影响，但作为一个前端开发者，有必要了解这一点
 
@@ -330,7 +330,7 @@ dom.classList.add(styles.container); // ✅ 属性container中记录的就是con
 
 下图可以看个热闹
 
-![image-20210508203658298](http://mdrs.yuanjin.tech/img/20210508203658.png)
+![image-20210508203658298](https://qwq9527.gitee.io/resource/imgs/20210508203658.png)
 
 webpack通过插件（plugin）和加载器（loader）将这些技术整合在一起
 

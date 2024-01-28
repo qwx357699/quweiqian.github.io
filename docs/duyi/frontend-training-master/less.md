@@ -1,6 +1,6 @@
 # Less
 
-![技能树.drawio](http://mdrs.yuanjin.tech/img/20210507101924.png)
+![技能树.drawio](https://qwq9527.gitee.io/resource/imgs/20210507101924.png)
 
 ## 什么是Less？
 
@@ -8,7 +8,7 @@
 
 下面是css代码和Less代码的对比，它们都表达了一样的含义
 
-![image-20210507125034131](http://mdrs.yuanjin.tech/img/20210507125034.png)
+![image-20210507125034131](https://qwq9527.gitee.io/resource/imgs/20210507125034.png)
 
 **Less代码虽好，但它无法被浏览器识别**，因此需要一个工具将其转换为血统纯正的css代码
 
@@ -16,7 +16,7 @@
 
 `npm`上有一个包叫做`less`，它运行在node环境中，通过它可以完成对Less代码的转换
 
-<img src="http://mdrs.yuanjin.tech/img/20210507105107.png" alt="image-20210507105107556" style="zoom:50%;" />
+<img src="https://qwq9527.gitee.io/resource/imgs/20210507105107.png" alt="image-20210507105107556" style="zoom:50%;" />
 
 **可以看出，node环境在前端工程化中，充当了一个辅助的角色，它并不直接运行前端代码，而是让我们编写前端代码更加舒适便利，在后续的课程中，你还会不断的体会到这一点**
 

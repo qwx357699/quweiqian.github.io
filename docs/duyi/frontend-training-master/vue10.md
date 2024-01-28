@@ -10,7 +10,7 @@
 
 ## 远程获取数据的意义
 
-<img src="http://mdrs.yuanjin.tech/img/20201204145137.png" alt="image-20201204145137500" style="zoom:40%;" />
+<img src="https://qwq9527.gitee.io/resource/imgs/20201204145137.png" alt="image-20201204145137500" style="zoom:40%;" />
 
 ## 开发环境有跨域问题
 

@@ -9,7 +9,7 @@
 
 ## 引子
 
-![image-20210126132906004](http://mdrs.yuanjin.tech/img/20210126132906.png)
+![image-20210126132906004](https://qwq9527.gitee.io/resource/imgs/20210126132906.png)
 
 在`vue`中遇到**共享数据**，会带来下面的多个问题：
 
@@ -21,7 +21,7 @@
 
 一种比较容易想到的方案，就是把所有的共享数据**全部**提升到根组件，然后通过属性不断下发，当某个组件需要修改数据时，又不断向上抛出事件，直到根组件完成对数据的修改。
 
-![image-20210126133905451](http://mdrs.yuanjin.tech/img/20210126133905.png)
+![image-20210126133905451](https://qwq9527.gitee.io/resource/imgs/20210126133905.png)
 
 这种方案的缺陷也非常明显：
 
@@ -30,7 +30,7 @@
 
 基于上面的问题，我们可以简单的设置一个**独立的数据仓库**。
 
-![image-20210126140353891](http://mdrs.yuanjin.tech/img/20210126140353.png)
+![image-20210126140353891](https://qwq9527.gitee.io/resource/imgs/20210126140353.png)
 
 - 组件需要什么共享数据，可以自由的从仓库中获取，需要什么拿什么。
 
@@ -161,7 +161,7 @@ store.commit('mutation的名字', payload);
 
 2. 提交`mutation`是数据改变的**唯一原因**
 
-<img src="http://mdrs.yuanjin.tech/img/20210129151639.png" alt="image-20210129151639301" style="zoom: 50%;" />
+<img src="https://qwq9527.gitee.io/resource/imgs/20210129151639.png" alt="image-20210129151639301" style="zoom: 50%;" />
 
 ## 异步处理
 
@@ -197,4 +197,4 @@ const store = new Vuex({
 });
 ```
 
-<img src="http://mdrs.yuanjin.tech/img/20210129160320.png" alt="image-20210129160320025" style="zoom:50%;" />
+<img src="https://qwq9527.gitee.io/resource/imgs/20210129160320.png" alt="image-20210129160320025" style="zoom:50%;" />

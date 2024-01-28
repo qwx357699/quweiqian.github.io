@@ -1,4 +1,4 @@
-![技能树.drawio](http://mdrs.yuanjin.tech/img/20210421144913.png)
+![技能树.drawio](https://qwq9527.gitee.io/resource/imgs/20210421144913.png)
 
 # 第三方库概览
 
@@ -30,7 +30,7 @@
 >
 > 简单来说，就是提供很多的服务器，用户访问时，自动就近选择服务器给用户提供资源
 >
-> ![img](http://mdrs.yuanjin.tech/img/20210203133956.png)
+> ![img](https://qwq9527.gitee.io/resource/imgs/20210203133956.png)
 
 国内使用广泛的免费CDN站点：https://www.bootcdn.cn/
 
@@ -99,7 +99,7 @@ $("<a>").text("link").appendTo(".list");
 
 jQuery对象是一个伪数组，它和DOM元素的关系如下
 
-<img src="http://mdrs.yuanjin.tech/img/20210522134507.png" alt="image-20210522134507738" style="zoom:50%;" />
+<img src="https://qwq9527.gitee.io/resource/imgs/20210522134507.png" alt="image-20210522134507738" style="zoom:50%;" />
 
 jQuery对象和DOM之间可以互相转换
 
@@ -360,9 +360,9 @@ MockJS有两个作用：
 
 下面两张图说明MockJS的作用
 
-![image-20210524134909296](http://mdrs.yuanjin.tech/img/20210524134909.png)
+![image-20210524134909296](https://qwq9527.gitee.io/resource/imgs/20210524134909.png)
 
-![image-20210524135812109](http://mdrs.yuanjin.tech/img/20210524135812.png)
+![image-20210524135812109](https://qwq9527.gitee.io/resource/imgs/20210524135812.png)
 
 #### 仅模拟数据
 
@@ -430,7 +430,7 @@ Moment提供了强大的日期处理能力
 
 世界划分为24个时区，北京在东8区，格林威治在0时区。
 
-![时区](https://gblobscdn.gitbook.com/assets%2F-LQcTxgqTqhC05ckLpLr%2F-LikgRi0I4q8Q0a3kFgz%2F-LikgSk-E-e8AcD50vHu%2F2019-07-02-11-14-46.png?alt=media)
+![时区](https://qwq9527.gitee.io/resource/imgs/2019-07-02-11-14-46.webp)
 
 **GMT**：Greenwish Mean Time 格林威治世界时。太阳时，精确到毫秒。
 
@@ -466,7 +466,7 @@ YYYY-MM-DDTHH:mm:ss.msZ
 
 **在和用户交互时，将UTC时间或时间戳转换为更加友好的文本**
 
-<img src="http://mdrs.yuanjin.tech/img/20200827163636.png" alt="image-20200827163636508" style="zoom:50%;" />
+<img src="https://qwq9527.gitee.io/resource/imgs/20200827163636.png" alt="image-20200827163636508" style="zoom:50%;" />
 
 思考下面的问题：
 
@@ -479,7 +479,7 @@ YYYY-MM-DDTHH:mm:ss.msZ
 
 #### Moment的核心用法
 
-<img src="http://mdrs.yuanjin.tech/img/20200828144832.png" alt="image-20200828144832151" style="zoom:50%;" />
+<img src="https://qwq9527.gitee.io/resource/imgs/20200828144832.png" alt="image-20200828144832151" style="zoom:50%;" />
 
 Moment的使用分为两个部分：
 

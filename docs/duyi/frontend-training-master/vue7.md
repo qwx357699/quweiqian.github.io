@@ -49,7 +49,7 @@
 </div>
 ```
 
-<img src="http://mdrs.yuanjin.tech/img/20201202152326.png" alt="image-20201202152326210" style="zoom:40%;" />
+<img src="https://qwq9527.gitee.io/resource/imgs/20201202152326.png" alt="image-20201202152326210" style="zoom:40%;" />
 
 ## 具名插槽
 
@@ -91,5 +91,5 @@
 </BaseLayout>
 ```
 
-<img src="http://mdrs.yuanjin.tech/img/20201202153229.png" alt="image-20201202153229391" style="zoom:50%;" />
+<img src="https://qwq9527.gitee.io/resource/imgs/20201202153229.png" alt="image-20201202153229391" style="zoom:50%;" />
 

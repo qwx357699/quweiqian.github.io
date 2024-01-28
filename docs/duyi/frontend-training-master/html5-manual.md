@@ -1,5 +1,5 @@
 # HTML5手册
-<img src="http://mdrs.yuanjin.tech/img/20210518112557.png" alt="image-20210518112556986" style="zoom:50%;" />
+<img src="https://qwq9527.gitee.io/resource/imgs/20210518112557.png" alt="image-20210518112556986" style="zoom:50%;" />
 
 HTML5包含两个部分的更新，分别是`文档`和`web api`
 
@@ -102,7 +102,7 @@ HTML5包含两个部分的更新，分别是`文档`和`web api`
 
 ### 自定义数据属性
 
-<img src="http://mdrs.yuanjin.tech/img/20210518123117.png" alt="image-20210518123117393" style="zoom:50%;" />
+<img src="https://qwq9527.gitee.io/resource/imgs/20210518123117.png" alt="image-20210518123117393" style="zoom:50%;" />
 
 ### input的新增属性
 
@@ -186,7 +186,7 @@ JSON.parse(jsonString); // 将JSON格式的字符串转换为对象或数组
 
 浮动的帧率就导致一个问题，我们在使用`setInterval`等计时器实现某些动画效果时，如何才能保证每一帧只执行一次动画效果呢？
 
-![image-20210518133821647](http://mdrs.yuanjin.tech/img/20210518133821.png)
+![image-20210518133821647](https://qwq9527.gitee.io/resource/imgs/20210518133821.png)
 
 为了解决该问题，HTML5新增API`requestAnimationFrame`，用于在每一帧渲染**之前**做某些事
 

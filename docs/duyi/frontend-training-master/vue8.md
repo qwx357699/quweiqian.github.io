@@ -2,7 +2,7 @@
 
 > vue-router 官网：https://router.vuejs.org/zh/
 
-<img src="http://mdrs.yuanjin.tech/img/20201202170037.png" alt="image-20201202170037391" style="zoom:50%;" />
+<img src="https://qwq9527.gitee.io/resource/imgs/20201202170037.png" alt="image-20201202170037391" style="zoom:50%;" />
 
 1. **如何根据地址中的路径选择不同的组件？**
 2. **把选择的组件放到哪个位置？**
@@ -106,9 +106,9 @@ const router = new VueRouter({
 <a href="/blog">文章</a>
 ```
 
-<img src="http://mdrs.yuanjin.tech/img/20201203150453.png" alt="image-20201203150453332" />
+<img src="https://qwq9527.gitee.io/resource/imgs/20201203150453.png" alt="image-20201203150453332" />
 
-<img src="http://mdrs.yuanjin.tech/img/20201203150918.png" alt="image-20201203150918219" style="zoom:50%;" />
+<img src="https://qwq9527.gitee.io/resource/imgs/20201203150918.png" alt="image-20201203150918219" style="zoom:50%;" />
 
 ### 激活状态
 

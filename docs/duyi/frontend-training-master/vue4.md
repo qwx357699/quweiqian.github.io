@@ -47,5 +47,5 @@ export default {
 1. 运行时就不再需要编译模板了，提高了运行效率
 2. 打包结果中不再需要vue的编译代码，减少了打包体积
 
-<img src="http://mdrs.yuanjin.tech/img/20201111155613.png" alt="image-20201111155613940" style="zoom:50%;" />
+<img src="https://qwq9527.gitee.io/resource/imgs/20201111155613.png" alt="image-20201111155613940" style="zoom:50%;" />
 

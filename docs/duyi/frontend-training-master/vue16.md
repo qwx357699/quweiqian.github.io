@@ -2,19 +2,19 @@
 
 ## 路由跳转逻辑
 
-![image-20210107140253824](http://mdrs.yuanjin.tech/img/20210107140253.png)
+![image-20210107140253824](https://qwq9527.gitee.io/resource/imgs/20210107140253.png)
 
 ## 组件逻辑
 
-![image-20210107142310757](http://mdrs.yuanjin.tech/img/20210107142310.png)
+![image-20210107142310757](https://qwq9527.gitee.io/resource/imgs/20210107142310.png)
 
 ### BlogList
 
-![image-20210107153623557](http://mdrs.yuanjin.tech/img/20210107153623.png)
+![image-20210107153623557](https://qwq9527.gitee.io/resource/imgs/20210107153623.png)
 
 ### BlogCategory
 
-![image-20210107154531659](http://mdrs.yuanjin.tech/img/20210107154531.png)
+![image-20210107154531659](https://qwq9527.gitee.io/resource/imgs/20210107154531.png)
 
 # 知识
 

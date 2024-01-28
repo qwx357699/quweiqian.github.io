@@ -2,11 +2,11 @@
 
 有的时候，许多组件有着类似的功能，这些功能代码分散在组件不同的配置中。
 
-![image-20210105161811637](http://mdrs.yuanjin.tech/img/20210105161811.png)
+![image-20210105161811637](https://qwq9527.gitee.io/resource/imgs/20210105161811.png)
 
 于是，我们可以把这些配置代码抽离出来，利用**混入**融合到组件中。
 
-![image-20210105162109015](http://mdrs.yuanjin.tech/img/20210105162109.png)
+![image-20210105162109015](https://qwq9527.gitee.io/resource/imgs/20210105162109.png)
 
 具体的做法非常简单：
 

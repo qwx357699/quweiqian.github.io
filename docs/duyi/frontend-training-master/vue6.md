@@ -2,7 +2,7 @@
 
 ## pager组件
 
-<img src="http://mdrs.yuanjin.tech/img/20201113130301.png" style="zoom:50%;" />
+<img src="https://qwq9527.gitee.io/resource/imgs/20201113130301.png" style="zoom:50%;" />
 
 ### 属性
 
@@ -25,11 +25,11 @@
 
 ### 2. **v-if 和 v-show**
 
-   ![image-20201113133827438](http://mdrs.yuanjin.tech/img/20201113133827.png)
+   ![image-20201113133827438](https://qwq9527.gitee.io/resource/imgs/20201113133827.png)
 
 -------
 
-   ![image-20201113134051281](http://mdrs.yuanjin.tech/img/20201113134051.png)
+   ![image-20201113134051281](https://qwq9527.gitee.io/resource/imgs/20201113134051.png)
 
    **面试题：v-if 和 v-show 有什么区别？**
 
@@ -44,7 +44,7 @@
 
 ### 3. **组件事件**
 
-   <img src="http://mdrs.yuanjin.tech/img/20201113134557.png" alt="image-20201113134557175" style="zoom:40%;" />
+   <img src="https://qwq9527.gitee.io/resource/imgs/20201113134557.png" alt="image-20201113134557175" style="zoom:40%;" />
 
    抛出事件：子组件在某个时候发生了一件事，但自身无法处理，于是通过事件的方式通知父组件处理
 

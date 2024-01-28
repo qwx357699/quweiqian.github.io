@@ -2,7 +2,7 @@
 
 ## 注入
 
-![image-20201110163548294](http://mdrs.yuanjin.tech/img/20201110163548.png)
+![image-20201110163548294](https://qwq9527.gitee.io/resource/imgs/20201110163548.png)
 
 vue会将以下配置注入到vue实例：
 
@@ -56,17 +56,17 @@ var vnode = {
 
 虚拟DOM树会最终生成为真实的DOM树
 
-![image-20201106144536733](http://mdrs.yuanjin.tech/img/20201106144536.png)
+![image-20201106144536733](https://qwq9527.gitee.io/resource/imgs/20201106144536.png)
 
 当数据变化后，将引发重新渲染，vue会比较新旧两棵vnode tree，找出差异，然后仅把差异部分应用到真实dom tree中
 
-![image-20201106145409844](http://mdrs.yuanjin.tech/img/20201106145409.png)
+![image-20201106145409844](https://qwq9527.gitee.io/resource/imgs/20201106145409.png)
 
 **可见，在vue中，要得到最终的界面，必须要生成一个vnode tree**
 
 vue通过以下逻辑生成vnode tree：
 
-<img src="http://mdrs.yuanjin.tech/img/20201106152046.png" style="zoom:40%;" />
+<img src="https://qwq9527.gitee.io/resource/imgs/20201106152046.png" style="zoom:40%;" />
 
 
 
@@ -83,5 +83,5 @@ vue通过以下逻辑生成vnode tree：
 
 ## 完整流程
 
-<img src="http://mdrs.yuanjin.tech/img/20200908051939.png" alt="image-20200908051939745" style="zoom:50%;" />
+<img src="https://qwq9527.gitee.io/resource/imgs/20200908051939.png" alt="image-20200908051939745" style="zoom:50%;" />
 
