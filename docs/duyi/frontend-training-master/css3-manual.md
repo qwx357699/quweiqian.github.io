@@ -2,7 +2,7 @@
 
 ## 布局
 
-![image-20210511102549096](http://mdrs.yuanjin.tech/img/20210511102802.png)
+![image-20210511102549096](https://qwq9527.gitee.io/resource/imgs/20210514140049.png)
 
 **浮动**：做文字环绕效果
 
@@ -18,7 +18,7 @@
 
 ### 生成弹性容器和弹性项目
 
-![image-20210511112624876](http://mdrs.yuanjin.tech/img/20210511112624.png)
+![image-20210511112624876](https://qwq9527.gitee.io/resource/imgs/20210514140049.png)
 
 **默认情况下，**弹性项目沿着主轴依次排列，侧轴拉伸
 
@@ -26,19 +26,19 @@
 
 通过`flex-direction`可更改主轴方向
 
-![image-20210511112510632](http://mdrs.yuanjin.tech/img/20210511112510.png)
+![image-20210511112510632](https://qwq9527.gitee.io/resource/imgs/20210514140049.png)
 
 ### 主轴排列
 
 通过`justify-content`属性，可以影响主轴的排列方式
 
-![image-20210511113617325](http://mdrs.yuanjin.tech/img/20210511113617.png)
+![image-20210511113617325](https://qwq9527.gitee.io/resource/imgs/20210514140049.png)
 
 ### 侧轴排列
 
 通过`align-items`属性，可以影响侧轴的排列方式
 
-![image-20210511114016304](http://mdrs.yuanjin.tech/img/20210511114016.png)
+![image-20210511114016304](https://qwq9527.gitee.io/resource/imgs/20210514140049.png)
 
 ### 弹性项目伸缩
 
@@ -48,11 +48,11 @@
 
 拉伸示例：
 
-![image-20210511120916571](http://mdrs.yuanjin.tech/img/20210511120916.png)
+![image-20210511120916571](https://qwq9527.gitee.io/resource/imgs/20210514140049.png)
 
 压缩示例：
 
-![image-20210511121459341](http://mdrs.yuanjin.tech/img/20210511121459.png)
+![image-20210511121459341](https://qwq9527.gitee.io/resource/imgs/20210514140049.png)
 
 默认情况下，`flex: 0 1 auto`
 
@@ -62,7 +62,7 @@
 
 给**弹性容器**设置`flex-wrap: wrap`，即可主轴换行
 
-<img src="http://mdrs.yuanjin.tech/img/20210511123310.png" alt="image-20210511123310673" style="zoom:50%;" />
+<img src="https://qwq9527.gitee.io/resource/imgs/20210514140049.png" alt="image-20210511123310673" style="zoom:50%;" />
 
 > 尽管如此，多行多列仍然推荐使用网格布局
 
@@ -78,7 +78,7 @@
 
 ### 生成网格布局
 
-<img src="http://mdrs.yuanjin.tech/img/20210511165317.png" alt="image-20210511165317363" style="zoom:50%;" />
+<img src="https://qwq9527.gitee.io/resource/imgs/20210514140049.png" alt="image-20210511165317363" style="zoom:50%;" />
 
 容器生成网格布局后，其所有子元素为**网格项目**
 
@@ -90,13 +90,13 @@
 
 **它们的语法是相同的**
 
-![image-20210511172305100](http://mdrs.yuanjin.tech/img/20210511172305.png)
+![image-20210511172305100](https://qwq9527.gitee.io/resource/imgs/20210514140049.png)
 
 ### 改变排列方向
 
 使用属性`grid-auto-flow: column`，可使子元素按列排放
 
-<img src="http://mdrs.yuanjin.tech/img/20210511173447.png" alt="image-20210511173447321" style="zoom:50%;" />
+<img src="https://qwq9527.gitee.io/resource/imgs/20210514140049.png" alt="image-20210511173447321" style="zoom:50%;" />
 
 ### 单元格之间的间隙
 
@@ -106,7 +106,7 @@ column-gap: 20px; /* 列间隙为20px */
 gap: 10px 20px; /* 行间隙为10px，列间隙为20px */
 ```
 
-![image-20210512132025687](http://mdrs.yuanjin.tech/img/20210512132025.png)
+![image-20210512132025687](https://qwq9527.gitee.io/resource/imgs/20210514140049.png)
 
 ### 单元格内部的对齐
 
@@ -123,7 +123,7 @@ justify-items: start 左 | end 右 | center 中 | stretch 拉伸;
 align-items: start 上 | end 下 | center 中 | stretch 拉伸;
 ```
 
-<img src="http://mdrs.yuanjin.tech/img/20210511174450.png" alt="image-20210511174450356" style="zoom:50%;" />
+<img src="https://qwq9527.gitee.io/resource/imgs/20210514140049.png" alt="image-20210511174450356" style="zoom:50%;" />
 
 可以使用速写属性`place-items: 垂直对齐方式 水平对齐方式`同时设置这两个值
 
@@ -143,7 +143,7 @@ place-items: start center; /* 垂直靠上，水平居中 */
 grid-area: 起始行线编号/起始列线编号/结束行线编号/结束列线编号;
 ```
 
-<img src="http://mdrs.yuanjin.tech/img/20210511180028.png" alt="image-20210511180027983" style="zoom:50%;" />
+<img src="https://qwq9527.gitee.io/resource/imgs/20210514140049.png" alt="image-20210511180027983" style="zoom:50%;" />
 
 # 视觉
 
@@ -159,7 +159,7 @@ grid-area: 起始行线编号/起始列线编号/结束行线编号/结束列线
 
 下面是一些示例
 
-<iframe src="http://mdrs.yuanjin.tech/html/css-manual/box-shadow.html?v=2" style="height:900px;width:100%;border:none;"></iframe>
+<iframe src="https://qwq9527.gitee.io/resource/html/css-manual/box-shadow.html?v=2" style="height:900px;width:100%;border:none;"></iframe>
 
 ### 文字阴影
 
@@ -169,7 +169,7 @@ grid-area: 起始行线编号/起始列线编号/结束行线编号/结束列线
 
 下面是一些示例
 
-<iframe src="http://mdrs.yuanjin.tech/html/css-manual/text-shadow.html?v=3" style="height:500px;width:100%;border:none;"></iframe>
+<iframe src="https://qwq9527.gitee.io/resource/html/css-manual/text-shadow.html?v=3" style="height:500px;width:100%;border:none;"></iframe>
 
 ## 圆角
 
@@ -177,7 +177,7 @@ grid-area: 起始行线编号/起始列线编号/结束行线编号/结束列线
 
 通过设置`border-radius`，可以设置盒子的圆角
 
-![image-20210512131026084](http://mdrs.yuanjin.tech/img/20210512131026.png)
+![image-20210512131026084](https://qwq9527.gitee.io/resource/imgs/20210514140049.png)
 
 `border-radius`可以有很多灵活的用法，将下面的代码依次粘贴到页面中测试一下
 
@@ -187,7 +187,7 @@ border-radius: 50%; /* 同时设置4个角的圆角，圆的横向半径为宽�
 border-radius: 10px 20px 30px 40px; /* 分别设置左上、右上、右下、左下的圆角 */
 ```
 
-<iframe src="http://mdrs.yuanjin.tech/html/css-manual/border-raduis.html?v=5" style="height:550px;width:100%;border:none;"></iframe>
+<iframe src="https://qwq9527.gitee.io/resource/html/css-manual/border-raduis.html?v=5" style="height:550px;width:100%;border:none;"></iframe>
 
 ## 背景渐变
 
@@ -202,7 +202,7 @@ border-radius: 10px 20px 30px 40px; /* 分别设置左上、右上、右下、�
 background: linear-gradient(to bottom, #e66465, #9198e5);
 ```
 
-![image-20210512135024676](http://mdrs.yuanjin.tech/img/20210512135028.png)
+![image-20210512135024676](https://qwq9527.gitee.io/resource/imgs/20210514140049.png)
 
 ## 变形
 
@@ -224,13 +224,13 @@ background: linear-gradient(to bottom, #e66465, #9198e5);
 
 使用`translate`可以让盒子在原来位置上产生位移，类似于相对定位
 
-![image-20210512140622630](http://mdrs.yuanjin.tech/img/20210512140643.png)
+![image-20210512140622630](https://qwq9527.gitee.io/resource/imgs/20210514140049.png)
 
 ### scale 缩放
 
 使用`translate`可以让盒子在基于原来的尺寸发生缩放
 
-![image-20210512141500499](http://mdrs.yuanjin.tech/img/20210512141500.png)
+![image-20210512141500499](https://qwq9527.gitee.io/resource/imgs/20210514140049.png)
 
 ### rotate 旋转
 
@@ -245,7 +245,7 @@ transform: rotate(0.5turn);
 
 可以点击下面的按钮试一下旋转效果
 
-<iframe src="http://mdrs.yuanjin.tech/html/css-manual/rotate.html" style="height:400px;width:100%;border:none;"></iframe>
+<iframe src="https://qwq9527.gitee.io/resource/html/css-manual/rotate.html" style="height:400px;width:100%;border:none;"></iframe>
 
 
 
@@ -266,7 +266,7 @@ transform-origin: 30px 60px; /* 设置原点在盒子坐标 (30, 60) 位置 */
 
 试一试，先点击设置原点的按钮来设置原点(已在图片中使用红色小点标记)，然后点击变形按钮进行变形
 
-<iframe src="http://mdrs.yuanjin.tech/html/css-manual/transform-origin.html?v2" style="height:600px;width:100%;border:none;"></iframe>
+<iframe src="https://qwq9527.gitee.io/resource/html/css-manual/transform-origin.html?v2" style="height:600px;width:100%;border:none;"></iframe>
 
 ### 多种变形叠加
 
@@ -283,8 +283,8 @@ transform: translate(100px, 100px) rotate(45deg);
 
 下面的例子可以很好的说明这一点
 
-http://mdrs.yuanjin.tech/html/css-manual/multi-transform.html
-
+https://qwq9527.gitee.io/resource/html/css-manual/multi-transform.html
+<iframe src="https://qwq9527.gitee.io/resource/html/css-manual/multi-transform.html?v2" style="height:600px;width:100%;border:none;"></iframe>
 > 本来打算把这个效果嵌入到markdown，但由于嵌入后出现一些未知的bug，因此只能粘贴效果地址了
 
 # 过渡和动画
@@ -335,7 +335,7 @@ transition: 过渡属性 持续时间 过渡函数 过渡延迟
 
 **动画的本质是预先定义的一套css变化规则，然后给该规则取个名字**
 
-![image-20210513172902413](http://mdrs.yuanjin.tech/img/20210513172902.png)
+![image-20210513172902413](https://qwq9527.gitee.io/resource/imgs/20210514140049.png)
 
 然后，其他元素即可使用这样的规则：
 
@@ -364,7 +364,7 @@ animation: 规则名 持续时间 重复次数 时间函数 动画方向 延迟�
 
 一图胜千言
 
-![image-20210514150015660](http://mdrs.yuanjin.tech/img/20210514150015.png)
+![image-20210514150015660](https://qwq9527.gitee.io/resource/imgs/20210514140049.png)
 
 使用`border-box`控制尺寸更加直观，因此，很多网站都会加入下面的代码
 
@@ -409,7 +409,7 @@ css3属性`object-fit`可以控制**多媒体内容和与元素**的适应方式
 
 下图中的所有`img`元素均被固定了宽高，溢出img的部分实际上均不会显示
 
-![image-20210514134908778](http://mdrs.yuanjin.tech/img/20210514134908.png)
+![image-20210514134908778](https://qwq9527.gitee.io/resource/imgs/20210514140049.png)
 
 ## 视口单位
 
@@ -421,7 +421,7 @@ css3支持使用`vw`和`vh`作为单位，分别表示`视口宽度`和`视口�
 
 通过`::before`和`::after`选择器，可以通过css给元素生成两个子元素
 
-<img src="http://mdrs.yuanjin.tech/img/20210514140049.png" alt="image-20210514140049244" style="zoom:50%;" />
+<img src="https://qwq9527.gitee.io/resource/imgs/20210514140049.png" alt="image-20210514140049244" style="zoom:50%;" />
 
 使用伪元素可以避免在HTML中使用过多的空元素
 

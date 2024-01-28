@@ -1,6 +1,6 @@
 # 文章数据逻辑
 
-![image-20210111142558879](http://mdrs.yuanjin.tech/img/20210111142558.png)
+![image-20210111142558879](https://qwq9527.gitee.io/resource/imgs/20210111142558.png)
 
 ## 组件逻辑
 

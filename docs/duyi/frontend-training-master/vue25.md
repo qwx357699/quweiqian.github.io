@@ -3,11 +3,11 @@
 
 路由总体示意图
 
-![image-20210130141625925](http://mdrs.yuanjin.tech/img/20210130141626.png)
+![image-20210130141625925](https://qwq9527.gitee.io/resource/imgs/20210130144001.png)
 
 鉴权守卫逻辑示意图
 
-![image-20210130144001709](http://mdrs.yuanjin.tech/img/20210130144001.png)
+![image-20210130144001709](https://qwq9527.gitee.io/resource/imgs/20210130144001.png)
 
 ## 参考资料
 

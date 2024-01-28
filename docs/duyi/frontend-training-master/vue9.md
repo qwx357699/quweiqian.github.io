@@ -31,7 +31,7 @@ function getComponentRootDom(comp, props){
 
 ## 扩展vue实例
 
-<img src="http://mdrs.yuanjin.tech/img/20201203172154.jpg" alt="扩展vue实例" style="zoom:33%;" />
+<img src="https://qwq9527.gitee.io/resource/imgs/20201203172154.jpg" alt="扩展vue实例" style="zoom:33%;" />
 
 ## ref
 

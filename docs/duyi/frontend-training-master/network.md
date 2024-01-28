@@ -14,7 +14,7 @@
 
 回复消息的一方称之为**服务器 Server**，回复消息的过程称之为**响应 Response**
 
-![image-20220415151039230](http://mdrs.yuanjin.tech/img/20220415151044.png)
+![image-20220415151039230](https://qwq9527.gitee.io/resource/imgs/20220510155742.png)
 
 这个过程中，有几个点需要**特别注意**：
 
@@ -40,7 +40,7 @@
 
 在现实生活中，如果我们要找一个人，我们可以通过一个地址来找到他。
 
-<img src="http://mdrs.yuanjin.tech/img/20220415153102.png" alt="image-20220415153102596" style="zoom:50%;" />
+<img src="https://qwq9527.gitee.io/resource/imgs/20220510155742.png" alt="image-20220415153102596" style="zoom:50%;" />
 
 和现实生活类似，在互联网中，我们可以通过一个叫 *url地址* 的东西找到我们想要的资源。
 
@@ -67,7 +67,7 @@ url地址可以很长，也可以很短。
 
 示例：
 
-![image-20220415160543391](http://mdrs.yuanjin.tech/img/20220415160543.png)
+![image-20220415160543391](https://qwq9527.gitee.io/resource/imgs/20220510155742.png)
 
 ### 协议 Protocal / Schema
 
@@ -167,7 +167,7 @@ http协议规定：
 
 2. 每次 请求-响应 传递的消息都是**纯文本（字符串）**，而且文本格式必须按照http协议规定的格式书写。
 
-![image-20220415172453837](http://mdrs.yuanjin.tech/img/20220415172453.png)
+![image-20220415172453837](https://qwq9527.gitee.io/resource/imgs/20220510155742.png)
 
 
 
@@ -175,7 +175,7 @@ http协议规定：
 
 请求消息格式有三部分组成
 
-![image-20220415173353090](http://mdrs.yuanjin.tech/img/20220415173353.png)
+![image-20220415173353090](https://qwq9527.gitee.io/resource/imgs/20220510155742.png)
 
 - 请求行：高度概括了客户端想要干什么
 - 请求头：描述了请求的一些额外信息
@@ -277,7 +277,7 @@ Content-Type: multipart/form-data
 
 服务器的响应格式包含三个部分
 
-![image-20220415182351508](http://mdrs.yuanjin.tech/img/20220415182351.png)
+![image-20220415182351508](https://qwq9527.gitee.io/resource/imgs/20220510155742.png)
 
 #### 响应行
 
@@ -373,7 +373,7 @@ Content-Type: multipart/form-data
 
 > 试试这个地址：oss.duyiedu.com/test/index.html
 
-![image-20220428165629557](http://mdrs.yuanjin.tech/img/20220428165634.png)
+![image-20220428165629557](https://qwq9527.gitee.io/resource/imgs/20220510155742.png)
 
 
 
@@ -455,7 +455,7 @@ resp.text(); // 用纯文本的格式解析即将到来的响应体，返回Prom
 
 ### 跨域错误
 
-![image-20220510154337224](http://mdrs.yuanjin.tech/img/20220510154337.png)
+![image-20220510154337224](https://qwq9527.gitee.io/resource/imgs/20220510155742.png)
 
 这个错误通常发生在AJAX请求的时候，是一个跨域错误，这里需要了解什么叫跨域。
 
@@ -482,7 +482,7 @@ resp.text(); // 用纯文本的格式解析即将到来的响应体，返回Prom
 
 ### 404错误
 
-![image-20220510153910252](http://mdrs.yuanjin.tech/img/20220510153910.png)
+![image-20220510153910252](https://qwq9527.gitee.io/resource/imgs/20220510155742.png)
 
 浏览器请求某个资源，但服务器响应了一个404状态码，就会在控制台中报出这个错误。与此同时，你可以在浏览器的网络调试中进一步观察到这个错误。
 
@@ -492,7 +492,7 @@ resp.text(); // 用纯文本的格式解析即将到来的响应体，返回Prom
 
 ### favicon
 
-![image-20220510152948450](http://mdrs.yuanjin.tech/img/20220510152948.png)
+![image-20220510152948450](https://qwq9527.gitee.io/resource/imgs/20220510155742.png)
 
 报错内容：加载资源失败：服务器响应了404状态码
 
@@ -510,11 +510,11 @@ resp.text(); // 用纯文本的格式解析即将到来的响应体，返回Prom
 
 ### 其他问题
 
-> ![image-20220510155614692](http://mdrs.yuanjin.tech/img/20220510155614.png)
+> ![image-20220510155614692](https://qwq9527.gitee.io/resource/imgs/20220510155742.png)
 >
 > 网络断开，检查你的网络连接，或者检查你是否在调试工具中进行了网络断开调试
 
-> ![image-20220510155742272](http://mdrs.yuanjin.tech/img/20220510155742.png)
+> ![image-20220510155742272](https://qwq9527.gitee.io/resource/imgs/20220510155742.png)
 >
 > 访问的域名不存在，无法连接到服务器
 

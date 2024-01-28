@@ -1,8 +1,8 @@
 # 组件生命周期
 
-<img src="http://mdrs.yuanjin.tech/img/20200908051939.png" alt="image-20200908051939745" style="zoom:50%;" />
+<img src="https://qwq9527.gitee.io/resource/imgs/20201206132819.png" alt="image-20200908051939745" style="zoom:50%;" />
 
-<img src="http://mdrs.yuanjin.tech/img/20201206132819.png" alt="image-20201206132819263" style="zoom:50%;" />
+<img src="https://qwq9527.gitee.io/resource/imgs/20201206132819.png" alt="image-20201206132819263" style="zoom:50%;" />
 
 ## 常见应用
 

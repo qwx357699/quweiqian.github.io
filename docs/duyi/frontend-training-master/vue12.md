@@ -133,7 +133,7 @@ export default {
 
 ### bingding 对象
 
-<img src="http://mdrs.yuanjin.tech/img/20210104174229.png" alt="image-20210104174229660" style="zoom:50%;" />
+<img src="https://qwq9527.gitee.io/resource/imgs/20210104174229.png" alt="image-20210104174229660" style="zoom:50%;" />
 
 > [查看更多bingding对象的属性](https://v2.cn.vuejs.org/v2/guide/custom-directive.html#钩子函数参数)
 
